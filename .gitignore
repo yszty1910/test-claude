@@ -1,0 +1,33 @@
+# Systemy operacyjne
+.DS_Store
+Thumbs.db
+
+# Edytory i IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Zmienne środowiskowe i sekrety
+.env
+.env.*
+!.env.example
+
+# Zależności
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Wyniki budowania
+dist/
+build/
+*.egg-info/
+
+# Logi i pliki tymczasowe
+*.log
+npm-debug.log*
+tmp/
+.cache/
